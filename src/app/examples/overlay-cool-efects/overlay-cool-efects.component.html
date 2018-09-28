@@ -1,0 +1,26 @@
+<br>
+<br>
+<br>
+<br>
+
+<br>
+
+<main role="main" class="container " >
+  
+    <div class="row">
+      
+       
+        <div class="card" *ngFor="let producto of InfoProductosService.info" class="col-md-4 mb-5" >
+          <div class="cardcool ">
+            <img src="{{producto.url}}" alt="">
+            <div class="overlay"></div>
+            <h4>{{producto.nombre}}</h4>
+            <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ab in esse provident, nihil, aliquam dicta consequatur dolore </h4>
+            <button type="button" class="btn btn-dark">Read More</button>
+          </div>
+          
+          
+        </div>
+      </div> 
+
+</main>

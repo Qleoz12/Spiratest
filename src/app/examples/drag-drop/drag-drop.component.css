@@ -1,0 +1,78 @@
+#div1, #div2 {
+    float: left;
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.carrito
+{
+    width: 100%;
+    height: 10rem;
+    border: #cb9b42 2px dashed;
+    border-radius: .45rem !important;
+    overflow-y: scroll;
+}
+
+div.card-body h6, h5
+{
+    margin-bottom: 0px;
+    border-bottom: none; 
+}
+
+.producto
+{
+    cursor: move;
+    
+}
+
+.lightcool
+{
+	background: #FFFB73;
+	transition: padding .3s;
+}
+
+.productoComprado
+{
+  width: 5%;
+  height: 5%;
+  user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+
+.reduce
+{
+    max-width: 40%;
+    padding: 0;
+
+    -webkit-user-drag:none;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+   
+
+}
+
+.reducep p
+{
+    margin-bottom: 0px;
+    border-bottom: none; 
+    -webkit-user-drag:none;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
